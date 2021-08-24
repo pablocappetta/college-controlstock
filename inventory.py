@@ -1,34 +1,3 @@
-'''Su empresa de desarrollo de software fue contactada para desarrollar un sistema de
-control de stock. Una fábrica desea realizar un control de inventario de sus productos,
-la empresa fabrica N productos diferentes y quiere mantener en stock un mínimo de
-M unidades por producto. No tiene capacidad para almacenar más de X unidades por producto.
-
-    a. Darle nombre a la fábrica e indicar qué producto produce.
-    
-    b. Se solicita simular una situación de stock actual para ello puede optar por lo siguiente:
-    
-        2. Simular tanto el código de producto de cuatro dígitos como la cantidad inicial
-        en stock con un número al azar entre dos valores solicitados del teclado.
-        
-        Por supuesto que si el código ya existe se debe rechazar porque estamos creando el stock
-        inicial y debe respetar las consignas iniciales respecto a las cantidades de stock.
-        
-    c. Se solicita ingresar un código de producto, luego ingresar la cantidad vendida.
-    Si el código existe, actualizar su stock cuidando que existan unidades disponibles para vender,
-    en caso de no alcanzar, emitir un mensaje. Si el código no existe, agregarlo como nuevo producto
-    asignando un código nuevo de producto.
-    
-    d.Luego de cada cambio o como opción a ejecutar cuando lo requiera el usuario, se debe poder consular:
-        
-        1. Listado completo con los códigos y su cantidad correspondiente por pantalla ordenado por código de producto.
-        
-        2. Productos  y  su  cantidad  en  stock  que  se  encuentran  por  debajo  del  stock  mínimo ordenado por cantidad de stock mínimo.
-        
-        3. Posibilidad de ingresar un código de producto e informe cuál es su stock actual.'''
-
-'''Nuestra empresa, Oculus S.A., produce elementos de mueblería tales como sillas,
-sillones, puffs, mesas, escritorios.'''
-
 import random
 
 #Funciones
