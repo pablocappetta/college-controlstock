@@ -13,7 +13,7 @@ b. Nombre Titular
 c. Saldo
 d. Sucursal'''  
 
-from Funciones.archivos import *
+from Functions.files import *
 
 #Funciones
 
