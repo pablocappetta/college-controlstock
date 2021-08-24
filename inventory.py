@@ -84,7 +84,7 @@ print("---------------------------------R2D2C3P0SKY-----------------------------
 print("------------------------------------------------------------------------------")
 print("")
 
-producto = int(input("Ingrese el número del producto que desea agregar (4 dígitos): ")) #Pablo
+producto = int(input("Ingrese el número del producto que desea agregar (4 dígitos): "))
 
 while producto != -1:
     if producto > 9999 or producto < 1000:
@@ -111,7 +111,7 @@ print("Stock de los productos onboardeados: ",listaStock)
 print("------------------------------------------------------------------------------")
 print("")
 
-productoVendido = int(input("Ingrese el número del producto que vendió o -1 para salir: ")) #Vani
+productoVendido = int(input("Ingrese el número del producto que vendió o -1 para salir: "))
 
 while productoVendido != -1:
     if (productoVendido > 9999) or (productoVendido < 1000):
@@ -146,7 +146,7 @@ while productoVendido != -1:
     productoVendido = int(input("Ingrese el número del producto que vendió o '-1' para continuar: "))
 
 
-prodABuscar = int(input("Por favor, ingrese el ID del producto para el cual desea chequear la cantidad de existencias o '-1' para continuar: ")) #Agus
+prodABuscar = int(input("Por favor, ingrese el ID del producto para el cual desea chequear la cantidad de existencias o '-1' para continuar: "))
 
 while prodABuscar != -1:
     if prodABuscar in listaProductos:
@@ -156,7 +156,7 @@ while prodABuscar != -1:
 
     prodABuscar = int(input("Por favor, ingrese el ID del producto para el cual desea chequear la cantidad de existencias o '-1' para continuar: "))
 
-faltantes = int(input("Por favor, ingrese '1' si quiere obtener un reporte de productos que se encuentran por debajo de los mínimos de existencias definidas anteriormente o '-1' para continuar: ")) #Carla
+faltantes = int(input("Por favor, ingrese '1' si quiere obtener un reporte de productos que se encuentran por debajo de los mínimos de existencias definidas anteriormente o '-1' para continuar: "))
 
 while faltantes != -1:
     if faltantes == 1:
@@ -166,7 +166,7 @@ while faltantes != -1:
         
     faltantes = int(input("Por favor, ingrese '1' si quiere obtener un reporte de productos que se encuentran por debajo de los mínimos de existencias definidas anteriormente o '-1' para continuar: "))
 
-reporteGeneral = int(input("Por favor, ingrese '1' si quiere obtener un reporte final de los productos disponibles y sus existencias o '-1' para terminar con el programa: ")) #Lucas
+reporteGeneral = int(input("Por favor, ingrese '1' si quiere obtener un reporte final de los productos disponibles y sus existencias o '-1' para terminar con el programa: "))
 
 while reporteGeneral != -1:
     if reporteGeneral == 1:
