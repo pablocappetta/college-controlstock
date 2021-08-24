@@ -1,0 +1,17 @@
+024423;Pablo Cappetta;0;025
+024423;Armando Esteban Quito;0;025;041
+034166;Jimena Garcia;107;025
+034154;Michael Scott;-342;025
+037573;Ibai Llanos;656;025
+037573;Al Addin;1656;025
+037573;Dave Grohl;-254;025
+037573;Jim Halpert;-87;025
+023245;Bart Simpson;1234.93;025
+043244;John Doe;-23
+043242;Juan Carlos Batman;-134242;021
+043355;Hugo Pucci;-543;021
+032111;Gordon Freeman;-3423.02;043
+032434;Alyx Vance;-15;021
+024145;Bruce Wayne;2352575442.19;043
+025335;Thor Odinson;-1.32;abc
+Tony Stark;042344;NA;013
